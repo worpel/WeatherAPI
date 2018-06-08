@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #274e9b;
+}
+
+.wrapper {
+    width: 600px;
+    height: 600px;
+    background-color: #ffffff;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#error {
+    display: none;
+}
+
+.opacity {
+    animation: opacity 1s linear;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
